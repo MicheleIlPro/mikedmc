@@ -1,0 +1,13 @@
+<div class="card-container">
+  <div class="card-image" [style.backgroundImage]="'url(' + currentCard.imagePath + ')'">
+    <div class="card-overlay" [style.opacity]="cardVisible ? '1' : '0'" (transitionend)="toggleCardVisibility()">
+      <div class="card-info cassa">
+        <div></div>
+        <div class="card-author">{{currentCard.authorName}}</div>
+        <button class="card-icon" *ngIf="currentCard.link" (click)="navigateToLink(currentCard.link)">
+          <img src="{{currentCard.iconPath}}" alt="Link icon">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
