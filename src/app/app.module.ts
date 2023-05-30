@@ -7,6 +7,9 @@ import { FooterComponent } from './footers/footer/footer.component';
 import { HeaderComponent } from './headers/header/header.component';
 import { RandomImageComponent } from './extra/random-image/random-image.component';
 import { HomeComponent } from './mains/home/home.component';
+import { NullaComponent } from './mains/nulla/nulla.component';
+import { ServerComponent } from './mains/server/server.component';
+import { BotsComponent } from './mains/bots/bots.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { HomeComponent } from './mains/home/home.component';
     FooterComponent,
     HeaderComponent,
     RandomImageComponent,
-    HomeComponent
+    HomeComponent,
+    NullaComponent,
+    ServerComponent,
+    BotsComponent
   ],
   imports: [
     BrowserModule,
