@@ -126,7 +126,7 @@ header .header-right .menu div {
       font-size: 20px;
   }
   .titles h2 {
-      font-size: 14px
+      display: none;
   }
 
   /* Hero Responsive */
