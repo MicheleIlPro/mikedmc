@@ -72,3 +72,17 @@
 .card-icon:hover{
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .card-image {
+    width: 80vw;
+    }
+}
+
+@media (max-width: 400px) {
+  .card-container {
+    height: 22vh;
+    display: inline-block;
+    padding: 2vh;
+  }
+}

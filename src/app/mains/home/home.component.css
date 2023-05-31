@@ -157,6 +157,10 @@ button:hover {
     font-size: 150%;
   }
 
+  .responsive{
+    display: none;
+  }
+
 }
 
 
@@ -186,6 +190,10 @@ button:hover {
     width: 33vw;
 
     font-size: 75%;
+  }
+
+  .responsive{
+    display: none;
   }
 
 }
