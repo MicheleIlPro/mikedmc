@@ -18,7 +18,7 @@ img{
   display: none;
 }
 
-.patata, .container, .section.active{
+.container, .section.active{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,16 +63,129 @@ button:hover {
   width: 100%;
 }
 
-.container-random-image{
+.container-random-image, .bottoni{
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
 
+/* blocchi cose */
+
 .divider{
   margin: 0 auto;
-  width: 68vw;
+  width: 68%;
   height: 2px;
   background-color: hsla(0,0%,100%,.1);
+}
+
+
+.section-space{
+  height: 45vh;
+  width: 50vw;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.red{
+  border: 2px solid red;
+}
+
+.primo-box{
+  height: min-content;
+  margin-bottom: 12px;
+  width: 50vw;
+  text-align: center;
+}
+
+.primo-box h1{
+  font-size: 400%;
+}
+
+.primo-box p{
+  font-size: 250%;
+}
+
+.secondo-box{
+  height: 5vh;
+  width: 50vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondo-box button{
+  border: 1px solid hsla(0,0%,100%,.1);
+  border-radius: 25px;
+
+  height: 5vh;
+  width: 16vw;
+
+  font-size: 200%;
+}
+
+.discord{
+  color: #5562EA;
+}
+
+/* Media query per dispositivi fino a 1000px */
+
+@media (max-width: 1000px) {
+
+  .primo-box{
+    width: 65vw;
+  }
+
+  .primo-box h1{
+    font-size: 300%;
+  }
+
+  .primo-box p{
+    font-size: 150%;
+  }
+
+  .secondo-box{
+    height: 5vh;
+    width: 65vw;
+  }
+
+  .secondo-box button{
+    height: 5vh;
+    width: 26vw;
+
+    font-size: 150%;
+  }
+
+}
+
+
+/* Media query per dispositivi fino a 300px */
+
+@media (max-width: 400px) {
+
+  .primo-box{
+    width: 75vw;
+  }
+
+  .primo-box h1{
+    font-size: 250%;
+  }
+
+  .primo-box p{
+    font-size: 100%;
+  }
+
+  .secondo-box{
+    height: 5vh;
+    width: 75vw;
+  }
+
+  .secondo-box button{
+    height: 5vh;
+    width: 33vw;
+
+    font-size: 75%;
+  }
+
 }

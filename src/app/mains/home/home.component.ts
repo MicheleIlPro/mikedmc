@@ -54,5 +54,10 @@ export class HomeComponent implements OnInit {
     this.stopTimer();
     this.startTimer();
   }
+
+  navigateToLink(link: string): void {
+    window.location.href = link;
+  }
+
 }
 
