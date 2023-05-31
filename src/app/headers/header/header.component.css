@@ -126,13 +126,14 @@ header .header-right .menu div {
       font-size: 20px;
   }
   .titles h2 {
-      font-size: 14px;
+      font-size: 14px
   }
 
   /* Hero Responsive */
   .container nav{
       width: 10px;
   }
+
 }
 
 /* cambio grandezza schermo -300*/
@@ -177,7 +178,7 @@ header .header-right .menu div {
       font-size: 14px;
   }
   .titles h2 {
-      font-size: 10px;
+      display: none;
   }
 
   /* Hero Responsive */
