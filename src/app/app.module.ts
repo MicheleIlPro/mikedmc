@@ -10,6 +10,7 @@ import { HomeComponent } from './mains/home/home.component';
 import { NullaComponent } from './mains/nulla/nulla.component';
 import { ServerComponent } from './mains/server/server.component';
 import { BotsComponent } from './mains/bots/bots.component';
+import { ErrorComponent } from './extra/error/error.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BotsComponent } from './mains/bots/bots.component';
     HomeComponent,
     NullaComponent,
     ServerComponent,
-    BotsComponent
+    BotsComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
