@@ -1,0 +1,80 @@
+/* Side Bar */
+.sidebar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  font-size: 18px;
+  transform: translateY(-50%);
+  background-color: #0B2239;
+  width: 10vw;
+  padding: 10px;
+  border-radius: 25px 0 0 25px;
+}
+
+.sidebar a {
+  font-family: 'DynaPuff', cursive;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all ease 0.3s;
+}
+
+/* Prima Section */
+section{
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+#section1{
+  height: 93vh;
+}
+
+.divider{
+  margin: 0 auto;
+  width: 90%;
+  height: 2px;
+  background-color: hsla(0,0%,100%,.1);
+}
+
+.dividerVerticale {
+  width: 68%;
+  height: 20%; /* altezza desiderata */
+  width: 2px;
+  background-color: hsla(0, 0%, 100%, 0.1); /* larghezza e colore della linea */
+}
+
+/* section1 */
+.grid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-row {
+  display: block;
+  justify-content: center;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  font-size: 16px;
+  color: #888;
+}

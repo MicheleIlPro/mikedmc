@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef  } from '@angular/core';
 
 @Component({
   selector: 'app-bots',
@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./bots.component.css']
 })
 export class BotsComponent {
-
 }
