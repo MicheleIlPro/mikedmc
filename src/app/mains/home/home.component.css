@@ -26,7 +26,16 @@ img{
 
 .section.active {
   display: block;
-  animation: slideInRight 1s ease-in-out forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
 }
 
 @keyframes slideInRight {
@@ -37,6 +46,29 @@ img{
     transform: translateX(0%);
   }
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/*
+.section.active {
+  display: block;
+  animation: slideInRight 1s ease-in-out forwards;
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+} */
 
 button{
   width: 100px;
