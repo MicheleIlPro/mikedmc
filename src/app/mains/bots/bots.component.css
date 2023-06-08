@@ -86,17 +86,20 @@ section{
   border: 2px solid red;
 }
 
-.menu-button {
-  display: none;
-}
-
 /* Section 2 */
 #section2 {
+  height: auto;
   justify-content: center;
   align-items: center;
 }
 
-.item, .item-inverted{
+.titol{
+  height: 20vh;
+  text-align: center;
+  font-size: 10vh;
+}
+
+.item, .item-inverted, .titolo{
   height: 20vh;
   display: flex;
   align-items: center;
@@ -182,15 +185,29 @@ section{
   }
 
   .dividerVerticale{
-    display: none;
+    margin: 0 auto;
+    width: 90%;
+    height: 2px;
+    background-color: hsla(0,0%,100%,.1);
   }
   /* section 1 fine */
   /* section 2 */
+  #section2{
+
+  }
+
   #section2 h2{
     font-size: 20px;
   }
   #section2 p{
     font-size: 12px;
+  }
+
+  .titol{
+    padding-top: 5vh;
+    height: auto;
+    font-size: 10vh;
+    padding-bottom: 1vh;
   }
   /* section 2 fine */
 
