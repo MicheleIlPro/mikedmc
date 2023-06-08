@@ -11,6 +11,8 @@
   border-radius: 25px 0 0 25px;
 }
 
+/* fine side bar */
+
 .sidebar a {
   font-family: 'DynaPuff', cursive;
   display: block;
@@ -71,20 +73,92 @@ section{
 }
 
 .grid-item h2 {
-  font-size: 24px;
+  font-size: 34px;
   margin-bottom: 10px;
 }
 
 .grid-item p {
-  font-size: 16px;
-  color: #888;
+  font-size: 20px;
+  color: #B3E5FC;
 }
 
 .red{
   border: 2px solid red;
 }
 
+.menu-button {
+  display: none;
+}
+
+/* Section 2 */
+#section2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.item, .item-inverted{
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.item{
+  justify-content: left;
+  padding-left: 20%;
+}
+
+.item-inverted{
+  justify-content: right;
+  padding-right: 20%;
+}
+
+.item h2, .item-inverted h2 {
+  text-align: left;
+  margin: 0 0 10px 10px;
+  font-size: 34px;
+}
+
+.item p, .item-inverted p {
+  font-size: 24px;
+  color: #B3E5FC;
+}
+
+.item-inverted h2, .item-inverted p{
+  text-align: right;
+}
+
+#section2 a{
+  color: #00ffee;
+}
+
+#section2 a:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 2px;
+  transition: all ease 0.3s;
+}
+
+.item img, .item-inverted img {
+  height: 10vh;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+
+
+/* Responsive */
+
 @media only screen and (max-width: 1000px) {
+
+  /* side bar */
+  .sidebar{
+    display: none;
+  }
+
+  /* section 1 */
+  #section1{
+    height: auto;
+  }
 
   .grid-section {
     display: block;
@@ -110,6 +184,16 @@ section{
   .dividerVerticale{
     display: none;
   }
+  /* section 1 fine */
+  /* section 2 */
+  #section2 h2{
+    font-size: 20px;
+  }
+  #section2 p{
+    font-size: 12px;
+  }
+  /* section 2 fine */
+
 }
 
 @media (max-width: 400px) {
@@ -125,4 +209,26 @@ section{
   .grid-item p {
     font-size: 8px;
   }
+
+  /* section 2 */
+  .item{
+    justify-content: left;
+    padding-left: 5%;
+  }
+
+  .item-inverted{
+    justify-content: right;
+    padding-right: 5%;
+  }
+
+  #section2 h2{
+    font-size: 16px;
+  }
+  #section2 p{
+    font-size: 8px;
+  }
+
+
+  /* section 2 fine */
+
 }

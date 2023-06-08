@@ -74,3 +74,9 @@
 .footer__text a:hover {
   color: #1E40AF;
 }
+
+@media only screen and (max-width: 1000px) {
+  .footer img{
+    height: 10vh;
+  }
+}
