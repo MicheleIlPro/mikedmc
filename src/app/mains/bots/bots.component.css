@@ -6,9 +6,25 @@
   font-size: 18px;
   transform: translateY(-50%);
   background-color: #0B2239;
-  width: 10vw;
+  width: auto;
   padding: 10px;
   border-radius: 25px 0 0 25px;
+}
+
+/* Alcuni dei colori con lo sfondo */
+.color-title, .grid-item h2,.grid-section2 h2, #section3 h2{
+  color: rgb(0, 94, 255);
+  text-shadow: 0 0 3px rgba(65, 239, 255, 0.5);
+}
+
+.color-desc, .grid-item p, .grid-section2 p, #section3 p{
+  color: white;
+  text-shadow: 0 0 10px rgba(65, 239, 255, 0.5);
+}
+
+.color-link, #section2 a, .grid-section2 a, #section3 a{
+  color: rgb(0, 208, 255);
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 /* fine side bar */
@@ -79,7 +95,6 @@ section{
 
 .grid-item p {
   font-size: 20px;
-  color: #B3E5FC;
 }
 
 .red{
@@ -123,15 +138,10 @@ section{
 
 .item p, .item-inverted p {
   font-size: 24px;
-  color: #B3E5FC;
 }
 
 .item-inverted h2, .item-inverted p{
   text-align: right;
-}
-
-#section2 a{
-  color: #00ffee;
 }
 
 #section2 a:hover{
@@ -147,11 +157,87 @@ section{
   border-radius: 50%;
   margin: 0 10px 0 10px;
 }
+/* Section 2 fine */
+/* section 3 */
+#section3, .section3{
+  justify-content: center;
+  align-items: center;
+  align-items: baseline;
+}
 
+#section3{
+  display: block;
+}
+
+.section3{
+  display: flex;
+}
+
+.table-container{
+  width: 25vw;
+  height: auto;
+  background-color: rgb(41, 161, 143);
+  margin: 25px;
+}
+
+.table-title{
+  margin: 1.5%;
+  padding: 1%;
+  font-size: 250%;
+
+  background-color: #0B2239;
+  text-align: center;
+
+  border: 2px solid black;
+  border-radius: 17px;
+}
+
+.table-desc{
+  margin: 4%;
+  font-size: 150%;
+  text-align: center;
+}
+
+#section3 a:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  transition: all ease 0.3s;
+}
+
+.colore1{
+  background-color: #394C4D;
+}
+
+/* section 3 fine */
 
 /* Responsive */
+@media only screen and (max-width: 1300px){
+
+  .table-title{
+    margin: 1.5%;
+    padding: 1%;
+    font-size: 250%;
+
+    background-color: #0B2239;
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 17px;
+  }
+
+  .table-desc{
+    margin: 4%;
+    font-size: 135%;
+    text-align: center;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
+
+  .red{
+    border: 2px solid cyan;
+  }
 
   /* side bar */
   .sidebar{
@@ -190,11 +276,9 @@ section{
     height: 2px;
     background-color: hsla(0,0%,100%,.1);
   }
+
   /* section 1 fine */
   /* section 2 */
-  #section2{
-
-  }
 
   #section2 h2{
     font-size: 20px;
@@ -210,10 +294,52 @@ section{
     padding-bottom: 1vh;
   }
   /* section 2 fine */
+  /* Section 3 */
+
+  #section3{
+    display: block;
+    height: auto;
+  }
+
+  .section3{
+    display: block;
+  }
+
+  .titol, #section2 h2{
+    font-size: 200%;
+  }
+
+  .table-container{
+    width: 90%;
+    height: auto;
+    margin: 20px 5% 0 5%;
+    padding: 10px;
+  }
+
+  .table-title{
+    font-size: 20px;
+    background-color: #0B2239;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-top: 5px;
+  }
+
+  .table-desc{
+    margin: 0;
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+
+  /* section 3 fine */
 
 }
 
 @media (max-width: 400px) {
+
+  .red{
+    border: 2px solid yellow;
+  }
 
   .grid-item {
     padding: 15px;
@@ -247,5 +373,24 @@ section{
 
 
   /* section 2 fine */
+
+  /* section 3 */
+
+  .titol{
+    font-size: 16px;
+  }
+
+  .table-title{
+    font-size: 16px;
+    margin-top: 1px;
+  }
+
+  .table-desc{
+    margin: 0;
+    font-size: 11px;
+    padding-bottom: 30px;
+  }
+
+  /* section 3 fine */
 
 }
