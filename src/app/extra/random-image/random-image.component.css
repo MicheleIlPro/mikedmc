@@ -75,13 +75,22 @@
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
+
   .card-image {
     width: 80vw;
+    height: 40vh;
     }
+
 }
 
 @media (max-width: 400px) {
+
+  .card-image {
+    width: 80vw;
+    height: 30vh;
+    }
+
   .card-container {
     height: 22vh;
     display: inline-block;

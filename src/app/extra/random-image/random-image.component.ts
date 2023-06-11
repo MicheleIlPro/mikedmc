@@ -49,14 +49,14 @@ export class RandomImageComponent implements OnInit {
     {
       imagePath:
         'https://cdn.discordapp.com/attachments/1092419304177270824/1104799932164096112/00002-3755594171.png',
-      authorName: '222',
+      authorName: 'Ia',
       link: 'http://example.com',
       iconPath:
         'https://freelogopng.com/images/all_img/1658587303instagram-png.png',
     },
     {
       imagePath: 'https://img.animeunity.tv/anime/bx150672-2WWJVXIAOG11.png',
-      authorName: 'U cazz',
+      authorName: 'Esempio2',
       link: 'http://example.com',
       iconPath:
         'https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png',

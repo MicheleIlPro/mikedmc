@@ -161,6 +161,15 @@ button:hover {
   color: #5562EA;
 }
 
+/* Media query per i dispositivi fino a 1300px */
+@media (max-width: 1300px){
+
+  .responsive{
+    display: none;
+  }
+
+}
+
 /* Media query per dispositivi fino a 1000px */
 
 @media (max-width: 1000px) {
@@ -187,10 +196,6 @@ button:hover {
     width: 26vw;
 
     font-size: 150%;
-  }
-
-  .responsive{
-    display: none;
   }
 
 }
