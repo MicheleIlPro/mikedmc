@@ -28,6 +28,8 @@
 
 .card-icon img {
   height: 3vh;
+  border-radius: 25px;
+  margin-right: 10px;
 }
 
 .card-overlay {
