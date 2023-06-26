@@ -48,18 +48,11 @@ export class RandomImageComponent implements OnInit {
     },
     {
       imagePath:
-        'https://cdn.discordapp.com/attachments/1092419304177270824/1104799932164096112/00002-3755594171.png',
-      authorName: 'Ia',
-      link: 'http://example.com',
+        'https://cdn.discordapp.com/attachments/880935650487046214/1122805865855070279/WhatsApp_Image_2023-06-10_at_23.11.00.jpeg',
+      authorName: 'Mitsuri_iota',
+      link: 'https://www.twitch.tv/roxannepierce',
       iconPath:
-        'https://freelogopng.com/images/all_img/1658587303instagram-png.png',
-    },
-    {
-      imagePath: 'https://img.animeunity.tv/anime/bx150672-2WWJVXIAOG11.png',
-      authorName: 'Esempio2',
-      link: 'http://example.com',
-      iconPath:
-        'https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png',
+        'https://cdn.iconscout.com/icon/free/png-512/free-twitch-11-461838.png?f=avif&w=256',
     },
     {
       imagePath: '../../../assets/publicita/soro1.jpg',
